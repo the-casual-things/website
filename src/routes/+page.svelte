@@ -1,3 +1,17 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<div class="container">
+	<h1>TC[T]</h1>
+</div>
+
+<style>
+	h1 {
+		color: white;
+		font-size: calc(100vw / 12);
+	}
+
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+	}
+</style>
