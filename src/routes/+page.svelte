@@ -29,6 +29,11 @@
 		</span>]
 	</h1>
 </div>
+<div class="title">
+	<h2>The</h2>
+	<h2>Casual</h2>
+	<h2>[Things]</h2>
+</div>
 
 <style>
 	h1 {
@@ -62,5 +67,25 @@
 		top: 0.35em;
 		font-size: 0.6em;
 		line-height: calc(100vw / 12);
+	}
+
+	.title {
+		color: #ffffff30;
+		position: fixed;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 0.25em;
+		margin-bottom: 1rem;
+	}
+
+	.title h2 {
+		margin: 0;
+		font-size: 2rem;
+		line-height: 1em;
 	}
 </style>
