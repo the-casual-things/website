@@ -3,7 +3,7 @@
 	import { fade, fly } from 'svelte/transition';
 
 	let currentIndex = 0;
-	const emojis = ['🎨', '🎧', '🗄️', '🐤', '✨', '🎬', '💡'];
+	const emojis = ['🎨', '🎧', '🐤', '✨', '💡', '🌏'];
 	let emoji = emojis[0];
 	let key = 0;
 
